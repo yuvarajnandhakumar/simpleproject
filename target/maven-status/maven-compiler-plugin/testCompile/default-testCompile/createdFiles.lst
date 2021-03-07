@@ -1,0 +1,8 @@
+org\commonactions\SelMEthod.class
+org\stepdefinition\TelecomStepdef.class
+org\stepdefinition\fbsteps.class
+org\locator\AddCusLocator.class
+org\stepdefinition\Addcustomer.class
+org\commonactions\CommonMethod.class
+org\stepdefinition\Hooks.class
+org\stepdefinition\TestRunner.class

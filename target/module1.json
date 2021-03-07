@@ -1,0 +1,108 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3066008800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforefun()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "value passed using example",
+        "description": "",
+        "id": "title-of-your-feature;value-passed-using-example;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 826383700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterfun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3907932300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "launch and verify url",
+            "match": {
+              "location": "Addcustomer.launch_and_verify_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2833529300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click add customer link",
+            "match": {
+              "location": "Addcustomer.click_add_customer_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2272890800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "pass value for firstname and lastname \"ezhil@gmail.com\" \"explode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ezhil@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"explode\"",
+                  "offset": 56
+                }
+              ],
+              "location": "Addcustomer.pass_value_for_firstname_and_lastname(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@count"
+          },
+          {
+            "name": "@secondsce"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/projecttelecom.feature",
+    "tags": [
+      {
+        "name": "@count",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
