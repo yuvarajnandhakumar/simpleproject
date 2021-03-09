@@ -11,7 +11,7 @@ glue="org.stepdefinition",
 monochrome=true, 
 dryRun=false,
 tags=("@secondsce"),
-plugin={"html:target","json:target/reports.json"})
+plugin={"json:target/reports.json"})
 
 public class TestRunner {
 
